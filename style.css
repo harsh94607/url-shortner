@@ -1,0 +1,102 @@
+*{
+margin: 0;
+padding: 0; 
+}
+
+body{
+    background-image: url(./assets/background.jpg);
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(2px);
+    background-size:cover ;
+    font-family:sans-serif ;
+}
+
+.heading{
+    color: #DAFFFB;
+    text-shadow: 5px 5px 5px #001C30;
+    scale:1.2;
+}
+
+.container{
+    background-color: #c1cacd58;
+    backdrop-filter: blur(5px);
+    width: 40%;
+    height: 40vh; 
+    border: 2px solid #64CCC5;
+    background-position: bottom;
+    margin: auto;
+    position: relative;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px  #4c4848;
+}
+
+.longurl{
+    border: 2px solid black;
+    font-size: 500px;
+    padding-left:20px;
+    }
+
+input{
+    font-size: 15px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right: 10px;
+}
+.input{
+    margin-bottom:50px ;
+}
+#longurl{
+    border: 2px solid #001C30;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 22vw;
+}
+#shorturl{
+    border: 2px solid #001C30;
+    border-radius: 20px;
+    height: 30px;
+    width: 22vw;
+}
+#shorten{
+    border: 2px solid #001C30;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family:'Trebuchet MS';
+    height: 35px;
+    width: 67px;
+    text-shadow: 2px 2px 5px rgb(13, 2, 2);
+   
+}
+#copy{
+ position: relative;
+ top: 2px;
+ right: 38px;
+ background-color: #ffff;
+ border: 0;
+ font-size: 20px;
+ 
+}
+
+#shorten:hover{
+    height: 37px;
+    width: 70px;
+}
+
+#shorturl:hover{
+    width: 22.2vw;
+    height: 32px;
+
+}
+#longurl:hover{
+    width: 22.2vw;
+    height: 32px;
+
+}
