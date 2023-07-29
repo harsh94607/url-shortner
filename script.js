@@ -1,16 +1,3 @@
-gsap.from(".container",{
-    duration:1,
-    opacity:0,
-    x:-50,
-})
-gsap.from(".container h1",{
-    opacity:0,
-    scale: "5",
-    duration:2,
-
-})
-
-
 
 let btn = document.getElementById("shorten");
 
